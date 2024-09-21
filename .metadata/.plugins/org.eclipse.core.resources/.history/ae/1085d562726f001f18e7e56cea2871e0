@@ -1,0 +1,13 @@
+package com.book_api.service;
+
+import java.util.Optional;
+
+import com.book_api.entity.BookEntity;
+
+public interface IBook_Serviice {
+	String createData(BookEntity bookEntity) ;
+	Optional<BookEntity> fetchById(int id);
+	BookEntity fetchAllData(BookEntity bookEntity);
+	
+
+}

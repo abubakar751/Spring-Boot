@@ -1,0 +1,15 @@
+package com.book_api.exception;
+
+public class ResourceNotFoundException extends RuntimeException{
+	String failmassage;
+	String massagecode;
+	long fieldvalue;
+	public ResourceNotFoundException(String failmassage,long fieldvalue,String massagecode) {
+		super(String.format(failmassage,  fieldvalue,massagecode));
+		this.failmassage = failmassage;
+		this.massagecode = massagecode;
+		this.fieldvalue = fieldvalue;
+	}
+	
+
+}
