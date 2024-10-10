@@ -1,9 +1,0 @@
-package com.book_api.service;
-
-import com.book_api.entity.BookEntity;
-
-public interface IBook_Serviice {
-	String createData(BookEntity bookEntity) ;
-	
-
-}

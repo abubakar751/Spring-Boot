@@ -1,5 +1,0 @@
-package com.book_api.service;
-
-public interface IBook_Serviice {
-
-}

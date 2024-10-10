@@ -1,5 +1,0 @@
-package com.book_api.exception;
-
-public class ExceptionHandller {
-
-}

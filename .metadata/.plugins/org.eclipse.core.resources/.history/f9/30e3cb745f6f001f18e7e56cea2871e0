@@ -1,5 +1,0 @@
-package com.book_api.repository;
-
-public interface Book_Repository {
-
-}

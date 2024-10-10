@@ -1,7 +1,6 @@
 package com.book_api.controller;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.book_api.entity.BookEntity;
 import com.book_api.service.Book_Service;
-
-import ch.qos.logback.core.joran.conditional.IfAction;
 
 @RestController
 @RequestMapping("/api")
