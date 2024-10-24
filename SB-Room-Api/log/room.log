@@ -1,0 +1,724 @@
+2024-10-17 00:44:56,785 :  : WARN   : HikariPool.java:804 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m18s153ms786µs100ns).
+2024-10-17 01:09:23,132 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 01:09:23,167 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 11:16:33,124 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 21404 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 11:16:33,139 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 11:16:33,143 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 11:16:35,344 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 11:16:35,350 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 11:16:35,351 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 11:16:35,450 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 11:16:35,760 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 11:16:35,899 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 11:16:35,971 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 11:16:36,484 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 11:16:36,922 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@628b503a
+2024-10-17 11:16:36,925 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 11:16:37,043 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 11:16:38,458 :  : INFO   : JtaPlatformInitiator.java:58 : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17 11:16:38,962 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 11:16:38,969 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 11:16:38,971 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 11:22:03,358 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 21372 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 11:22:03,373 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 11:22:03,376 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 11:22:06,026 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 11:22:06,103 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 11:22:06,151 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 11:22:06,550 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 11:22:06,961 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351d93bd
+2024-10-17 11:22:06,963 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 11:22:07,036 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 11:22:08,249 :  : INFO   : JtaPlatformInitiator.java:58 : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17 11:22:08,699 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 11:22:08,707 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 12:23:49,334 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 13924 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 12:23:49,351 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 12:23:49,353 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 12:23:51,398 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 12:23:51,404 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 12:23:51,404 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 12:23:51,495 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 12:23:51,763 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 12:23:51,839 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 12:23:51,889 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 12:23:52,372 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 12:23:52,939 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11f3400c
+2024-10-17 12:23:52,941 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 12:23:53,015 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 12:23:54,284 :  : INFO   : JtaPlatformInitiator.java:58 : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17 12:23:54,765 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 12:23:54,774 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 12:23:54,776 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 12:25:45,851 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 10132 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 12:25:45,868 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 12:25:45,871 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 12:25:48,041 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 12:25:48,048 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 12:25:48,049 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 12:25:48,162 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 12:25:48,431 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 12:25:48,517 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 12:25:48,578 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 12:25:49,072 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 12:25:49,482 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a99c42c
+2024-10-17 12:25:49,485 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 12:25:49,559 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 12:25:51,067 :  : INFO   : JtaPlatformInitiator.java:58 : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17 12:25:51,589 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 12:25:51,598 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 12:25:51,601 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 12:49:09,100 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 3848 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 12:49:09,116 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 12:49:09,118 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 12:49:11,407 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 12:49:11,413 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 12:49:11,413 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 12:49:11,507 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 12:49:11,791 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 12:49:11,875 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 12:49:11,926 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 12:49:12,363 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 12:49:12,820 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f48fa72
+2024-10-17 12:49:12,822 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 12:49:12,910 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 12:49:13,326 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 12:49:13,334 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 12:49:13,339 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 12:58:43,560 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 21828 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 12:58:43,574 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 12:58:43,577 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 12:58:45,527 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 12:58:45,532 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 12:58:45,533 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 12:58:45,643 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 12:58:45,891 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 12:58:45,980 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 12:58:46,057 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 12:58:46,514 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 12:58:46,939 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@732d078d
+2024-10-17 12:58:46,941 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 12:58:47,015 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 12:58:47,370 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 12:58:47,408 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 12:58:47,412 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 13:01:13,776 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 6768 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 13:01:13,791 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 13:01:13,793 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 13:01:15,726 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 13:01:15,734 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 13:01:15,736 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 13:01:15,853 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 13:01:16,213 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 13:01:16,322 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 13:01:16,372 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 13:01:16,778 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 13:01:17,201 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73d91faf
+2024-10-17 13:01:17,203 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 13:01:17,279 :  : WARN   : Dialect.java:354 : HHH000511: The 5.7.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17 13:01:17,610 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 13:01:17,636 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 13:01:17,640 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 13:05:19,178 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 17748 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 13:05:19,195 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 13:05:19,197 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 13:05:21,390 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 13:05:21,397 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 13:05:21,397 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 13:05:21,520 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 13:05:21,777 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 13:05:21,875 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 13:05:21,942 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 13:05:22,398 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 13:05:22,813 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cc4d454
+2024-10-17 13:05:22,816 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 13:05:22,848 :  : WARN   : DialectFactoryImpl.java:153 : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17 13:05:22,850 :  : WARN   : DialectFactoryImpl.java:101 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-17 13:05:23,169 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 13:05:23,208 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 13:05:23,212 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 13:06:33,221 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 1632 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 13:06:33,235 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 13:06:33,238 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 13:06:35,134 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 13:06:35,140 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 13:06:35,140 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 13:06:35,227 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 13:06:35,488 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 13:06:35,567 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 13:06:35,618 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 13:06:36,010 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 13:06:36,420 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35becbd4
+2024-10-17 13:06:36,423 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 13:06:36,439 :  : WARN   : JdbcEnvironmentInitiator.java:345 : HHH000342: Could not obtain connection to query metadata
+org.hibernate.boot.registry.selector.spi.StrategySelectionException: Unable to resolve name [org.hibernate.dialect.MySQL5Dialect] as strategy [org.hibernate.dialect.Dialect]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:154) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+	at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.hibernate.dialect.MySQL5Dialect]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:126) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.hibernate.dialect.MySQL5Dialect
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:216) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+Caused by: java.lang.Throwable
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:209) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5Dialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5Dialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5Dialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+2024-10-17 13:06:36,459 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 13:06:36,464 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 13:06:36,467 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 13:08:30,528 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 22484 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 13:08:30,544 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 13:08:30,546 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 13:08:32,769 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 13:08:32,775 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 13:08:32,776 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 13:08:32,892 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 13:08:33,160 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 13:08:33,259 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 13:08:33,309 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 13:08:33,832 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 13:08:34,330 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b751cb1
+2024-10-17 13:08:34,333 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 13:08:34,352 :  : WARN   : JdbcEnvironmentInitiator.java:345 : HHH000342: Could not obtain connection to query metadata
+org.hibernate.boot.registry.selector.spi.StrategySelectionException: Unable to resolve name [org.hibernate.dialect.MySQL5InnoDBDialect] as strategy [org.hibernate.dialect.Dialect]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:154) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+	at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.hibernate.dialect.MySQL5InnoDBDialect]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:126) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.hibernate.dialect.MySQL5InnoDBDialect
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:216) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+Caused by: java.lang.Throwable
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:209) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+	... 44 more
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5InnoDBDialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5InnoDBDialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+	Suppressed: java.lang.ClassNotFoundException: org.hibernate.dialect.MySQL5InnoDBDialect
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:206) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+		at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:495) ~[?:?]
+		at java.base/java.lang.Class.forName(Class.java:474) ~[?:?]
+		at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.selectStrategyImplementor(StrategySelectorImpl.java:150) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:236) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.selector.internal.StrategySelectorImpl.resolveStrategy(StrategySelectorImpl.java:189) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect(DialectFactoryImpl.java:123) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:88) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:328) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute(JdbcEnvironmentInitiator.java:277) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:70) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.10.Final.jar:6.4.10.Final]
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.2.10.jar:3.2.10]
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.2.10.jar:3.2.10]
+		at com.sb_room_api.SbRoomApiApplication.main(SbRoomApiApplication.java:12) [classes/:?]
+2024-10-17 13:08:34,389 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 13:08:34,395 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 13:08:34,399 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 13:09:00,598 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 15912 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 13:09:00,620 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 13:09:00,623 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 13:09:02,826 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 13:09:02,832 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 13:09:02,833 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 13:09:02,943 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 13:09:03,188 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 13:09:03,267 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 13:09:03,315 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 13:09:03,695 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 13:09:04,110 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35becbd4
+2024-10-17 13:09:04,112 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 13:09:04,143 :  : WARN   : DialectFactoryImpl.java:153 : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17 13:09:04,145 :  : WARN   : DialectFactoryImpl.java:101 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-17 13:09:04,492 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 13:09:04,506 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 13:09:04,511 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 15:35:53,913 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 5532 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 15:35:53,928 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 15:35:53,931 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 15:35:56,000 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 15:35:56,006 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 15:35:56,007 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 15:35:56,093 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 15:35:56,349 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 15:35:56,427 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 15:35:56,475 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 15:35:56,877 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 15:35:57,292 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b3c1f6
+2024-10-17 15:35:57,294 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 15:35:57,327 :  : WARN   : DialectFactoryImpl.java:153 : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17 15:35:57,329 :  : WARN   : DialectFactoryImpl.java:101 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-17 15:35:57,637 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 15:35:57,667 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 15:35:57,671 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 15:41:08,175 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 17400 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 15:41:08,191 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 15:41:08,193 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 15:41:10,276 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 15:41:10,282 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 15:41:10,282 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 15:41:10,370 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 15:41:10,626 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 15:41:10,722 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 15:41:10,731 :  : WARN   : EntityManagerFactoryBuilderImpl.java:680 : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2024-10-17 15:41:10,770 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 15:41:11,223 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 15:41:11,726 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6480a063
+2024-10-17 15:41:11,730 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 15:41:11,780 :  : WARN   : DialectFactoryImpl.java:153 : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17 15:41:11,782 :  : WARN   : DialectFactoryImpl.java:101 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-17 15:41:12,144 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 15:41:12,181 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 15:41:12,185 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
+2024-10-17 15:45:25,711 :  : INFO   : StartupInfoLogger.java:50 : Starting SbRoomApiApplication using Java 19.0.2 with PID 21824 (D:\AllCode\Spring Boot\SB-Room-Api\target\classes started by Abu Bakar in D:\AllCode\Spring Boot\SB-Room-Api)
+2024-10-17 15:45:25,727 :  : DEBUG  : StartupInfoLogger.java:51 : Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-10-17 15:45:25,730 :  : INFO   : SpringApplication.java:654 : No active profile set, falling back to 1 default profile: "default"
+2024-10-17 15:45:27,714 :  : INFO   : DirectJDKLog.java:173 : Initializing ProtocolHandler ["http-nio-7070"]
+2024-10-17 15:45:27,720 :  : INFO   : DirectJDKLog.java:173 : Starting service [Tomcat]
+2024-10-17 15:45:27,720 :  : INFO   : DirectJDKLog.java:173 : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17 15:45:27,807 :  : INFO   : DirectJDKLog.java:173 : Initializing Spring embedded WebApplicationContext
+2024-10-17 15:45:28,065 :  : INFO   : LogHelper.java:31 : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17 15:45:28,144 :  : INFO   : Version.java:44 : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-17 15:45:28,154 :  : WARN   : EntityManagerFactoryBuilderImpl.java:680 : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2024-10-17 15:45:28,194 :  : INFO   : RegionFactoryInitiator.java:50 : HHH000026: Second-level cache disabled
+2024-10-17 15:45:28,627 :  : INFO   : HikariDataSource.java:110 : HikariPool-1 - Starting...
+2024-10-17 15:45:29,062 :  : INFO   : HikariPool.java:565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a9cc24
+2024-10-17 15:45:29,065 :  : INFO   : HikariDataSource.java:123 : HikariPool-1 - Start completed.
+2024-10-17 15:45:29,094 :  : WARN   : DialectFactoryImpl.java:153 : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17 15:45:29,096 :  : WARN   : DialectFactoryImpl.java:101 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-17 15:45:30,471 :  : INFO   : JtaPlatformInitiator.java:58 : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17 15:45:31,040 :  : INFO   : HikariDataSource.java:350 : HikariPool-1 - Shutdown initiated...
+2024-10-17 15:45:31,049 :  : INFO   : HikariDataSource.java:352 : HikariPool-1 - Shutdown completed.
+2024-10-17 15:45:31,051 :  : INFO   : DirectJDKLog.java:173 : Stopping service [Tomcat]
