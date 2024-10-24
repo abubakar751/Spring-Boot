@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.sb.test.dto.TestDTO;
 import com.sb.test.entity.TestEntity;
+import com.sb.test.mapper.TestMapper;
 import com.sb.test.repository.TestRepo;
 @Service
 public class TestService {
@@ -22,9 +23,11 @@ public class TestService {
 	private ModelMapper modelMapper;
 
 	public TestEntity insertData(TestDTO testDTO) {
-		TestEntity map = modelMapper.map(testDTO, TestEntity.class);
-		return testRepo.save(map);
 
+
+				TestEntity entity = testRepo.save(TestMapper.dtoToEntity(testDTO));
+
+return entity;
 	}
 	
 	public Optional<TestEntity> fetchById(int id) {
