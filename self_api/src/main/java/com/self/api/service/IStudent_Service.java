@@ -9,9 +9,9 @@ import com.self.api.entity.Student_Entity;
 public interface IStudent_Service {
 	String createStudent(Student_Entity student_Entity);
 
-	Optional<Student_Entity> fetchByID(int id);
+	Student_Entity fetchByID(int id);
 
-	List<Student_Entity> fetchAll(Student_Entity student_Entity);
+	List<Student_Entity> fetchAll();
 
 	String deleteStudent(int id);
 

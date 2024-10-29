@@ -10,5 +10,5 @@ public interface IStudentService {
     public StudentDTO getById(int id);
     public List<StudentDTO> getAll();
     public StudentDTO updateData(int id, StudentEntity studentEntity);
-public String deleteData(int id );
+    public String deleteData(int id );
 }

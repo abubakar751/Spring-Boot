@@ -71,6 +71,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\AllCode\Spring Boot\Student-Api"/>
 			<item value="D:\Spring Boot\book_api"/>
 			<item value="D:\Spring Boot\room_api"/>
 			<item value="C:\Users\Abu Bakar\Downloads\SpringBootProject"/>

@@ -24,14 +24,14 @@ public class Student_Service implements IStudent_Service {
 	}
 
 	@Override
-	public Optional<Student_Entity> fetchByID(int id) {
-		Optional<Student_Entity> byId = student_Repository.findById(id);
+	public Student_Entity fetchByID(int id) {
+		Student_Entity byId = student_Repository.findById(id).get();
 		return byId;
 
 	}
 
 	@Override
-	public List<Student_Entity> fetchAll(Student_Entity student_Entity) {
+	public List<Student_Entity> fetchAll() {
 		List<Student_Entity> all = student_Repository.findAll();
 
 		return all;
