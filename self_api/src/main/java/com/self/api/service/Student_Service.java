@@ -1,5 +1,6 @@
 package com.self.api.service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -7,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.self.api.dto.StudentDto;
 import com.self.api.entity.Student_Entity;
 import com.self.api.repositry.Student_Repository;
 
@@ -14,27 +17,35 @@ import com.self.api.repositry.Student_Repository;
 public class Student_Service implements IStudent_Service {
 	@Autowired
 	private Student_Repository student_Repository;
-
+	@Autowired
+	private ObjectMapper objectMapper;
 	@Override
+	public StudentDto createStudent(StudentDto studentDto) {
+		Student_Entity student_Entity = objectMapper.convertValue(studentDto, Student_Entity.class);
 
-	public String createStudent(Student_Entity student_Entity) {
-		Student_Entity save = student_Repository.save(student_Entity);
-
-		return "Data SuccesFull created";
+		student_Repository.save(student_Entity);
+	return	objectMapper.convertValue(student_Entity, StudentDto.class);
 	}
 
 	@Override
-	public Student_Entity fetchByID(int id) {
-		Student_Entity byId = student_Repository.findById(id).get();
-		return byId;
-
+	public StudentDto fetchByID(int id) {
+		
+  Student_Entity student_Entity = student_Repository.findById(id).get();
+  return objectMapper.convertValue(student_Entity, StudentDto.class);
 	}
 
 	@Override
-	public List<Student_Entity> fetchAll() {
+	public List<StudentDto> fetchAll() {
+		ArrayList<StudentDto> arrayList = new ArrayList<>();
 		List<Student_Entity> all = student_Repository.findAll();
+		for (Student_Entity student_Entity : all) {
+			if (student_Entity!=null) {
+				StudentDto convertValue = objectMapper.convertValue(student_Entity, StudentDto.class);
+				arrayList.add(convertValue);
+			}
+		}
 
-		return all;
+		return arrayList;
 	}
 
 	@Override
@@ -55,19 +66,24 @@ public class Student_Service implements IStudent_Service {
 	}
 
 	@Override
-	public Student_Entity updateById(int id, Student_Entity std) {
+	public StudentDto updateById(int id, StudentDto studentDto) {
 		Student_Entity student_Entity = student_Repository.findById(id).get();
 		if (student_Entity != null) {
 
-			student_Entity.setName(std.getName());
-			student_Entity.setGender(std.getGender());
-			student_Entity.setAddress(std.getAddress());
-			return student_Repository.save(student_Entity);
+			student_Entity.setName(studentDto.getName());
+			student_Entity.setGender(studentDto.getGender());
+			student_Entity.setAddress(studentDto.getAddress());
+			 Student_Entity save = student_Repository.save(student_Entity);
+			 return objectMapper.convertValue(save,StudentDto.class);
 
 		} else {
 
 			throw new RuntimeException("Student not found with id: " + id);
 		}
 	}
+
+	
+
+	
 
 }

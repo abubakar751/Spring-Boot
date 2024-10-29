@@ -1,6 +1,6 @@
 package com.student_api.rest_templet.service;
 
-import com.student_api.entity.Student_Entity;
+import com.student_api.rest_templet.dto.StudentDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -11,6 +11,7 @@ import java.util.List;
 @Service
 public class LocalApiService implements ILocalApiService {
 
+
     @Autowired
     private RestTemplate restTemplate;
 
@@ -18,35 +19,34 @@ public class LocalApiService implements ILocalApiService {
     String url;
 
     @Override
-    public String insert(Student_Entity studentEntity) {
+    public StudentDto insert(StudentDto studentDto) {
         String urls=url+"/createEmp";
-        String postForObject = restTemplate.postForObject(urls, studentEntity, String.class);
-        System.out.println(postForObject);
-        return  "data created";
-    }
+      return  restTemplate.postForObject(urls, studentDto,StudentDto.class);
 
-    public List<Student_Entity> getData() {
+    }
+    public List<StudentDto> getData() {
         String urls=url+"/fetchAll";
         return restTemplate.getForObject(urls, List.class);
     }
-    public Student_Entity getById(int id ){
+    public StudentDto getById(int id){
+
             String urls=url+"/fetch/{id}";
-        return restTemplate.getForObject(urls, Student_Entity.class,id);
+        return restTemplate.getForObject(urls, StudentDto.class,id);
     }
 
     public String deleteData(int id) {
-        String urls=url+"/delete/{id}";
-        restTemplate.delete(urls,id);
-        return "deleted"+id;
+    String urls = url + "/delete/{id}";
+    restTemplate.delete(urls, id);
+    return "deleted" + id;
     }
 
     @Override
-    public void updateData(int id,Student_Entity studentEntity) {
-       String urls=url+"/update/"+id;
-        restTemplate.put(urls, studentEntity, String.class);
+    public void updateData(int id,StudentDto studentDto) {
+            String urls = url + "/update/" + id;
+            restTemplate.put(urls, studentDto, String.class);
+        }
 
 
-    }
 
 
 }

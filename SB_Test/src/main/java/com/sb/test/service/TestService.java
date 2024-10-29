@@ -25,9 +25,9 @@ public class TestService {
 	public TestEntity insertData(TestDTO testDTO) {
 
 
-				TestEntity entity = testRepo.save(TestMapper.dtoToEntity(testDTO));
+	TestEntity entity = testRepo.save(TestMapper.dtoToEntity(testDTO));
 
-return entity;
+        return entity;
 	}
 	
 	public Optional<TestEntity> fetchById(int id) {

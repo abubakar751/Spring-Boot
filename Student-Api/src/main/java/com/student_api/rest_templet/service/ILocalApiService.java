@@ -1,13 +1,13 @@
 package com.student_api.rest_templet.service;
 
-import com.student_api.entity.Student_Entity;
+import com.student_api.rest_templet.dto.StudentDto;
 
 import java.util.List;
 
 public interface ILocalApiService {
-    String insert(Student_Entity studentEntity);
-     List<Student_Entity> getData();
-     Student_Entity getById(int id );
+    StudentDto insert(StudentDto studentDto);
+     List<StudentDto> getData();
+     StudentDto  getById(int id );
      String deleteData(int id);
-    void updateData(int id,Student_Entity studentEntity);
+    void updateData(int id,StudentDto studentDto);
 }

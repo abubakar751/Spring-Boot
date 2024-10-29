@@ -1,6 +1,6 @@
 package com.student_api.rest_templet.controller;
 
-import com.student_api.entity.Student_Entity;
+import com.student_api.rest_templet.dto.StudentDto;
 import com.student_api.rest_templet.service.ILocalApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,17 +15,17 @@ public class LocalApiController {
     @Autowired
     private ILocalApiService iLocalApiService ;
     @PostMapping("/creating")
-    public ResponseEntity<String> postData(@RequestBody Student_Entity studentEntity){
-     iLocalApiService.insert(studentEntity);
+    public ResponseEntity<String> postData(@RequestBody StudentDto studentDto){
+     iLocalApiService.insert(studentDto);
      return  ResponseEntity.ok("Data created");
     }
     
     @GetMapping("/fetchAllData")
-    public List<Student_Entity> getAllData() {
+    public List<StudentDto> getAllData() {
         return iLocalApiService.getData();
     }
     @GetMapping("/fetch/{id}")
-    public Student_Entity getDataByID(@PathVariable int id){
+    public StudentDto getDataByID(@PathVariable int id){
        return iLocalApiService.getById(id);
     }
 @DeleteMapping("/delete/{id}")
@@ -34,8 +34,8 @@ public class LocalApiController {
         return  "deletedData ";
   }
   @PutMapping("/updateData/{id}")
-  public String deleteData(@RequestBody Student_Entity studentEntity,@PathVariable int id){
-        iLocalApiService.updateData(id,studentEntity);
+  public String deleteData(@RequestBody StudentDto studentDto, @PathVariable int id){
+        iLocalApiService.updateData(id,studentDto);
         return  "Updated Data  :"+id;
   }
 

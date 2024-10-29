@@ -2,19 +2,18 @@ package com.self.api.service;
 
 import java.util.List;
 
-import java.util.Optional;
-
+import com.self.api.dto.StudentDto;
 import com.self.api.entity.Student_Entity;
 
 public interface IStudent_Service {
-	String createStudent(Student_Entity student_Entity);
+	StudentDto createStudent(StudentDto student_Entity);
 
-	Student_Entity fetchByID(int id);
+	StudentDto fetchByID(int id);
 
-	List<Student_Entity> fetchAll();
+	List<StudentDto> fetchAll();
 
 	String deleteStudent(int id);
 
-	Student_Entity updateById(int id, Student_Entity student_Entity);
+	StudentDto updateById(int id, StudentDto studentDto);
 
 }
