@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b2b10ab-0c5b-425f-a640-0ddcb9831c4b" name="Changes" comment="getProductByCategory">
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/EmployeeDetailsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/constant/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/constant/EmploymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/constant/EmploymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/controller/EmployeeDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/dto/EmployeeDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/entity/EmployeeDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/exception_handler/EmployeeIdNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/exception_handler/FileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/exception_handler/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/repo/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/service/EmployeeDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/service/IEmployeeDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/java/com/employeedetail/util/LocalDateDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/src/test/java/com/emloyee_details/EmployeeDetailsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/constant/EmploymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/constant/EmploymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/entity/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/repo/EmpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/employeeinfo/service/EmpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/java/com/graphql/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphQL/GraphQL/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/self_api/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/self_api/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/558891224.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/558891224.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/book_api.container" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/book_api.container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SB_Test/src/main/java/com/sb/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SB_Test/src/main/java/com/sb/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student-Api/src/main/java/com/student_api/rest_templet/service/LocalApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Student-Api/src/main/java/com/student_api/rest_templet/service/LocalApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../self_api/src/main/java/com/self/api/controller/Student_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self_api/src/main/java/com/self/api/controller/Student_Controller.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../GraphQL/GraphQlAsClient" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abubakar751&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abubakar751/Spring-Boot.git&quot;,
+    &quot;accountId&quot;: &quot;e0c96d84-9939-4301-aaa7-834c5e5566cf&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oJF5ZTD1My4ysdZmTTvDxjKUsC" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GraphQlApplication.executor": "Run",
+    "Application.GraphQlAsClientApplication.executor": "Run",
+    "JUnit.All in SpringBOotGraphQL.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AllCode/GraphQL/RedisCache",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.GraphQlAsClientApplication">
+    <configuration name="GraphQlApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.graphql.GraphQlApplication" />
+      <module name="SpringBOotGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQlAsClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphqlasclient.GraphQlAsClientApplication" />
+      <module name="GraphQlAsClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphqlasclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GraphQlAsClientApplication" />
+        <item itemvalue="Application.GraphQlApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b2b10ab-0c5b-425f-a640-0ddcb9831c4b" name="Changes" comment="" />
+      <created>1730579588934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730579588934</updated>
+    </task>
+    <task id="LOCAL-00001" summary="graphQl-Client">
+      <option name="closed" value="true" />
+      <created>1730631913730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730631913730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graphQl-Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphQl-Client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/graphqlasclient/controller/InventoryController.java</url>
+          <line>19</line>
+          <properties class="graphqlasclient.controller.InventoryController" method="viewProducts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/graphqlasclient/service/ImpInventory.java</url>
+          <line>15</line>
+          <properties class="graphqlasclient.service.ImpInventory" method="viewProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphqlasclient/service/ImpInventory.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graphqlasclient/service/ImpInventory.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

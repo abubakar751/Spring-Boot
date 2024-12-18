@@ -24,6 +24,7 @@ public class TestController {
 	@Autowired
 	private TestService testService;
 
+
 	@PostMapping("/insert")
 	public TestEntity creating(@RequestBody TestDTO testDTO) {
 		TestEntity insertData = testService.insertData(testDTO);

@@ -18,18 +18,18 @@ public class Student_Controller {
 	@PostMapping("/createEmp")
 	public StudentDto createStudent(@RequestBody StudentDto dto) {
 
-	return	student_Service.createStudent(dto);
-		
+		return student_Service.createStudent(dto);
+
 	}
 
 	@GetMapping("/fetch/{id}")
 	public StudentDto fetchById(@PathVariable int id) {
-        return student_Service.fetchByID(id);
+		return student_Service.fetchByID(id);
 	}
 
 	@GetMapping("/fetchAll")
 	public List<StudentDto> fetchAll() {
-        return student_Service.fetchAll();
+		return student_Service.fetchAll();
 	}
 
 	@DeleteMapping("/delete/{id}")
@@ -44,5 +44,6 @@ public class Student_Controller {
 		return student_Service.updateById(id, studentDto);
 
 	}
+
 
 }
